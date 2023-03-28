@@ -29,6 +29,7 @@ You will need the following technologies available to try it out:
 
 ## TO-DO list (ASAP):
 - Add functionality for adding customers.
+- Add functionality for subscribing/unsubscribing.
 
 ### Schema databases
 
