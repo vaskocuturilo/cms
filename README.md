@@ -55,6 +55,8 @@ You will need the following technologies available to try it out:
 
 ### Ho w to run.
 
+``` docker-compose up```
+
 ``` gradle build```
 
 ## Swagger-ui:
