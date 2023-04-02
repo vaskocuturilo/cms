@@ -4,14 +4,16 @@ package com.example.cms.client.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
 @Data
 @NoArgsConstructor
+@Document
 public class ClientEntity {
     @Id
-    private Long id;
+    private String id;
     private String firstName;
     private String lastName;
     private String email;
